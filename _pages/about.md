@@ -1,13 +1,12 @@
 ---
 permalink: /
-title: "Shijie Xu's Homepage"
+title: "Welcome to Shijie Xu's homepage!"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-# Welcome to my homepage!
 PhD in Finance Mathematics, University of Liverpool, UK. Now I am looking for a job in the UK as a **quantitative researcher**.
 
 My research interests include but are not limited to:
