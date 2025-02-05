@@ -1,5 +1,5 @@
 ---
-title: "A sharp upper bound for the expected occupation density of It\^o processes with bounded irregular drift and diffusion coefficients "
+title: "A sharp upper bound for the expected occupation density of Ito processes with bounded irregular drift and diffusion coefficients "
 collection: publications
 category: manuscripts
 permalink: https://arxiv.org/abs/2310.12655
