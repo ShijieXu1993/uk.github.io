@@ -4,5 +4,5 @@ excerpt: "Some pictures with Paul and Corina"
 collection: portfolio
 ---
 
-<img src='IMG_0446.jpg' width="217*2" height="302*2">
+<img src='IMG_0446.jpg' width="217" height="302">
 
