@@ -2,16 +2,8 @@
 title: "Explicit local density bounds for Ito processes with irregular drift"
 collection: publications
 category: manuscripts
-permalink: https://arxiv.org/abs/2308.02241
-excerpt: 'Paul Eisenberg & Shijie Xu, submitted to journals'
+permalink: /2010-10-01-paper-title-number-2
+excerpt: 'Joint work with Paul Eisenberg, submitted to journals'
 date: 2023-10-01
-
-
 ---
-
-The contents above will be part of a list of publications, if the user clicks the link for the publication than the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When publications are displayed as a single page, the contents of the above "citation" field will automatically be included below this section in a smaller font.
-venue: 'Submitted to Journals'
-
-slidesurl: 'http://academicpages.github.io/files/slides2.pdf'
-paperurl: 'http://academicpages.github.io/files/paper2.pdf'
-citation: 'Your Name, You. (2010). &quot;Paper Title Number 2.&quot; <i>Journal 1</i>. 1(2).'
+We find explicit upper bounds for the density of marginals of continuous diffusions where we assume that the diffusion coefficient is constant and the drift is solely assumed to be progressively measurable and locally bounded. In 1-dimensional we extend our result to the case that the diffusion coefficient is a locally Lipschitz-continuous function of the state. Our approach is based on a comparison to a suitable doubly reflected Brownian motion whose density is known in a series representation.
