@@ -1,9 +1,10 @@
 ---
 title: "My supervisors!"
-excerpt: "Some pictures with Paul and Corina"
+excerpt: "See more <br/><img src='/uk.github.io/images/IMG_0446.jpg>
+"
 collection: portfolio
 ---
 
-<img src='/uk.github.io/images/IMG_0446.jpg' width="217" height="302">
+<img src='/uk.github.io/images/IMG_0488.JPG'>
 
 
