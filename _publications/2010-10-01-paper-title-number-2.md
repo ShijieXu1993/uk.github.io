@@ -1,7 +1,5 @@
 ---
 title: "Explicit local density bounds for Ito processes with irregular drift"
-collection: publications
-category: manuscripts
 permalink: /2010-10-01-paper-title-number-2
 excerpt: 'Joint work with Paul Eisenberg, submitted to journals'
 date: 2023-10-01
