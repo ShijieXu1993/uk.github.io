@@ -1,6 +1,6 @@
 ---
 title: "Graduation"
-excerpt: "<br/><img src='/uk.github.io/images/500x300.png' width="500" height="750">"
+excerpt: "<br/><img src='/uk.github.io/images/500x300.png'>"
 
 collection: portfolio
 ---
