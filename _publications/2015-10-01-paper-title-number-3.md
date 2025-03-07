@@ -2,15 +2,11 @@
 title: "A sharp upper bound for the expected occupation density of Ito processes with bounded irregular drift and diffusion coefficients "
 collection: publications
 category: manuscripts
-permalink: https://arxiv.org/abs/2310.12655
-excerpt: 'Paul Eisenberg & Shijie Xu, submitted to journals.'
+permalink: /2015-10-01-paper-title-number-3.md
+excerpt: 'Joint work with Paul Eisenberg.'
 date: 2024-01-01
 venue: 'Electronic Journal of Probability (Accepted)'
+paperurl: 'https://arxiv.org/pdf/2310.12655'
 ---
 
-The contents above will be part of a list of publications, if the user clicks the link for the publication than the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When publications are displayed as a single page, the contents of the above "citation" field will automatically be included below this section in a smaller font.
-
-venue: 'Journal 1'
-slidesurl: 'http://academicpages.github.io/files/slides3.pdf'
-paperurl: 'http://academicpages.github.io/files/paper3.pdf'
-citation: 'Your Name, You. (2015). &quot;Paper Title Number 3.&quot; <i>Journal 1</i>. 1(3).'
+We find explicit and optimal upper and lower bounds for the expected occupation density for an Ito process when its drift and diffusion coefficients are unknown under boundedness and ellipticity conditions on the coefficients. This is related to the optimal bound for the expected interval occupation found in Ankirchner (2021). In contrast, our bound is for a single point and the resulting formula is less involved. Our findings allow us to find explicit upper and lower bounds for mean path integrals.
