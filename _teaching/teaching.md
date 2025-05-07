@@ -1,6 +1,14 @@
---------
-University of Liverpool (f/s : fall/spring quater) Liverpool, UK
-=============
+---
+title: "Teaching experience"
+collection: teaching
+type: "Undergraduate course"
+permalink: /teaching//
+venue: "University of Liverpool, Mathematics Department"
+date: 2020-01-01
+location: "Liverpool, UK"
+---
+University of Liverpool (f/s : fall/spring quarter) Liverpool, UK
+======
 * Math 253, Statistics and Probability I (f22)
 * Math 262, Financial Mathematics II (s20, s22)
 * Math 264, Statistical Theor & Methods II (s20)
