@@ -1,6 +1,3 @@
----
-
----
 University of Liverpool (f/s : fall/spring quater) Liverpool, UK
 =====
 * Math 253, Statistics and Probability I (f22)
