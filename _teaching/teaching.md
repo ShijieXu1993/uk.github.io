@@ -7,7 +7,7 @@ venue: "University of Liverpool, Mathematics Department"
 date: 2020-01-01
 location: "Liverpool, UK"
 ---
-f/s: fall/spring quarter 
+Teaching Assistant, f/s: fall/spring quarter 
 ======
 * Math 253, Statistics and Probability I (f22)
 * Math 262, Financial Mathematics II (s20, s22)
