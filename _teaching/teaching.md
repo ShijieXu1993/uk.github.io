@@ -1,4 +1,6 @@
+--------
 University of Liverpool (f/s : fall/spring quater) Liverpool, UK
+=============
 * Math 253, Statistics and Probability I (f22)
 * Math 262, Financial Mathematics II (s20, s22)
 * Math 264, Statistical Theor & Methods II (s20)
