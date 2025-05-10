@@ -4,6 +4,7 @@ collection: teaching
 type: "Undergraduate course"
 permalink: /teaching//
 venue: "University of Liverpool, Mathematics Department"
+date: 2024/01/01
 location: "Liverpool, UK"
 ---
 Teaching Assistant, f/s: fall/spring quarter 
