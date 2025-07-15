@@ -5,7 +5,7 @@ category: manuscripts
 permalink: /2015-10-01-paper-title-number-3
 excerpt: 'Joint work with Paul Eisenberg.'
 date: 2025-02-28
-venue: 'Electronic Journal of Probability (Accepted)'
+venue: 'Electronic Journal of Probability'
 paperurl: 'https://arxiv.org/pdf/2310.12655'
 ---
 
