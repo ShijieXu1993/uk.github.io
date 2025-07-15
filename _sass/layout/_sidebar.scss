@@ -90,23 +90,14 @@
   }
 
   img {
-     width: 150px;
-     height: 150px;
+     max-width: 175px;
      border-radius: 50%;
-     object-fit: cover;
-   
+
      @include breakpoint($large) {
        padding: 5px;
        border: 1px solid var(--global-border-color);
      }
-  //   max-width: 175px;
-  //   border-radius: 50%;
-
-  //   @include breakpoint($large) {
-  //     padding: 5px;
-  //     border: 1px solid var(--global-border-color);
-  //   }
-  // }
+   }
 }
 
 .author__content {
