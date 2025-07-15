@@ -5,7 +5,7 @@ category: manuscripts
 permalink: /202009-10-01-paper-title-number-1
 excerpt: Joint work with Paul Eisenberg.
 date: 2025-02-01
-venue: 'SIAM Journal on Financial Mathematics (Accepted)'
+venue: 'SIAM Journal on Financial Mathematics'
 paperurl: 'https://arxiv.org/pdf/2308.02246'
 ---
 
