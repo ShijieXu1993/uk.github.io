@@ -9,20 +9,20 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default"
-title                    : "About me / Shijie Xu"
+title                    : "Shijie Xu"
 title_separator          : "-"
 name                     : &name "Shijie Xu"
-description              : &description "personal description"
-url                      : https://shijiexu1993.github.io/uk.github.io/ # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
-baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "academicpages/academicpages.github.io"
+description              : &description "PhD in Financial Mathematics at the University of Liverpool, researching term structure models, Ito processes, OTC derivatives pricing, and xVA."
+url                      : "https://shijiexu1993.github.io" # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
+baseurl                  : "/uk.github.io" # the subpath of your site, e.g. "/blog"
+repository               : "ShijieXu1993/uk.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "profile-320.webp"
   name             : "Shijie Xu"
   pronouns         : # example: "she/her"  
   bio              : "The devil is in details"
@@ -140,9 +140,12 @@ og_image                 :  # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
-  type                   : # Person or Organization (defaults to Person)
-  name                   : # If the user or organization name differs from the site's name
+  type                   : Person # Person or Organization (defaults to Person)
+  name                   : "Shijie Xu" # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
+    - "https://orcid.org/0000-0001-8293-4509"
+    - "https://github.com/ShijieXu1993"
+    - "https://www.linkedin.com/in/shijie-xu-197b6b247/"
 
 
 # Analytics

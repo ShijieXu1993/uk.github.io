@@ -2,7 +2,7 @@
 title: "Teaching experience"
 collection: teaching
 type: "Undergraduate course"
-permalink: /teaching//
+permalink: /teaching/teaching-experience/
 venue: "University of Liverpool, Mathematics Department"
 date: 2024/01/01
 location: "Liverpool, UK"

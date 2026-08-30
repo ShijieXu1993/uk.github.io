@@ -40,3 +40,46 @@
     "vendor/font-awesome/brands",
     "vendor/magnific-popup/magnific-popup"
 ;
+
+.profile-highlights {
+  display: grid;
+  gap: 0.75rem;
+  grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
+  margin: 1.5rem 0;
+}
+
+.profile-highlight {
+  border: 1px solid mix(#fff, #7a8288, 70%);
+  border-radius: 6px;
+  color: inherit;
+  display: block;
+  padding: 0.9rem 1rem;
+  text-decoration: none;
+  transition: border-color 0.16s ease, box-shadow 0.16s ease, transform 0.16s ease;
+}
+
+.profile-highlight:visited {
+  color: inherit;
+}
+
+.profile-highlight:hover,
+.profile-highlight:focus {
+  border-color: #2a7ae2;
+  box-shadow: 0 0.35rem 1rem rgba(42, 122, 226, 0.12);
+  outline: none;
+  text-decoration: none;
+  transform: translateY(-1px);
+}
+
+.profile-highlight strong {
+  display: block;
+  font-size: 0.95rem;
+  margin-bottom: 0.25rem;
+}
+
+.profile-highlight span {
+  color: #5f6c72;
+  display: block;
+  font-size: 0.78rem;
+  line-height: 1.45;
+}
