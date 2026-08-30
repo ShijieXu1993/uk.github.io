@@ -1,7 +1,7 @@
 ---
 permalink: /
-title: "Shijie Xu"
-description: "Shijie Xu is a PhD researcher in Financial Mathematics at the University of Liverpool, focused on term structure models, Ito processes, OTC derivatives pricing, and xVA."
+title: "Latest posts"
+description: "Latest blog posts and research notes from Shijie Xu, PhD researcher in Financial Mathematics at the University of Liverpool."
 author_profile: true
 redirect_from: 
   - /about/
@@ -10,28 +10,15 @@ redirect_from:
 
 {% include base_path %}
 
-I am a PhD researcher in Financial Mathematics at the University of Liverpool. My work sits at the intersection of stochastic processes, fixed-income modelling, and derivatives valuation.
+I am a PhD researcher in Financial Mathematics at the University of Liverpool. I use this site to collect research notes, implementation write-ups, and updates on my academic work.
 
-My current research interests include:
+## Latest posts
 
-- Term structure models
-- Ito processes and stochastic differential equations
-- OTC derivatives pricing and risk management
-- xVA 
-
-<div class="profile-highlights" aria-label="Profile highlights">
-  <a class="profile-highlight" href="{{ base_path }}/publications/">
-    <strong>Publications</strong>
-    <span>Research outputs and working papers.</span>
-  </a>
-  <a class="profile-highlight" href="{{ base_path }}/talks/">
-    <strong>Talks</strong>
-    <span>Presentations and academic activity.</span>
-  </a>
-  <a class="profile-highlight" href="{{ base_path }}/cv/">
-    <strong>CV</strong>
-    <span>Education, skills, teaching, and experience.</span>
-  </a>
-</div>
-
-My supervisors are [Dr. Paul Eisenberg](https://www.wu.ac.at/en/statmath/faculty-staff/faculty/paul-eisenberg) at WU Wien and [Prof. Corina Constantinescu](https://www.liverpool.ac.uk/people/dana-constantinescu) at the University of Liverpool.
+{% assign recent_posts = site.posts | where_exp: "post", "post.hidden != true" %}
+{% if recent_posts.size > 0 %}
+  {% for post in recent_posts limit:5 %}
+    {% include archive-single.html %}
+  {% endfor %}
+{% else %}
+  New posts will appear here once they are published.
+{% endif %}
