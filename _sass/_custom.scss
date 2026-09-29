@@ -291,8 +291,12 @@ h1, h2, h3, h4,
   /* decorative primary blocks */
   .tile--red    { grid-area: red;    background: var(--red); }
   .tile--yellow { grid-area: yellow; background: var(--yellow); }
-  .tile--red, .tile--yellow, .tile--blue2 { aspect-ratio: 4 / 3; }
-  .tile--photo { aspect-ratio: 4 / 3; }
+  /* 4:3 sets the minimum row height; align-self makes the tiles fill the row
+     so no black grid background shows through */
+  .tile--red, .tile--yellow, .tile--blue2, .tile--photo {
+    aspect-ratio: 4 / 3;
+    align-self: stretch;
+  }
   /* four quadrants, one icon each, no dividing lines */
   .tile--contactinfo {
     padding: 0;
