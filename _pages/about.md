@@ -9,9 +9,9 @@ redirect_from:
 ---
 
 {% include base_path %}
-Shjjie Xu is a mathematician at Marketcolor, UK.
+Shijie Xu is a mathematician at Marketcolor, UK.
 
-His research interest are financial mathematics and stochastics analysis.
+His research interests are financial mathematics and stochastic analysis.
 
 ## Latest posts
 
