@@ -556,3 +556,61 @@ h1, h2, h3, h4,
   ul { margin: 0.3em 0 0; }
   li { margin-bottom: 0.4em; }
 }
+
+/* ---- "You may also enjoy" ------------------------------------------------ */
+.page__related {
+  margin-top: 4rem;
+  padding-top: 0;
+  border-top: none;
+
+  .page__related-title {
+    margin: 0 0 1.4rem;
+    padding-left: 0.85rem;
+    border-left: var(--rule) solid var(--blue);
+    font-size: 1.4rem;
+    letter-spacing: -0.01em;
+    text-transform: none;
+  }
+
+  .grid__wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: 1.5rem;
+    margin: 0;
+
+    &::before,
+    &::after { display: none; }
+  }
+
+  .grid__item {
+    float: none;
+    width: auto;
+    margin: 0;
+    padding: 0;
+  }
+
+  .archive__item {
+    height: 100%;
+    margin: 0;
+    padding: 1.1em 1.25em;
+    box-shadow: 4px 4px 0 var(--ink);
+
+    &:hover { box-shadow: 6px 6px 0 var(--ink); }
+  }
+
+  .archive__item-title {
+    margin: 0 0 0.5em;
+    font-size: 1.1rem;
+    line-height: 1.3;
+  }
+
+  .archive__item p,
+  .archive__item-excerpt {
+    margin: 0.3em 0 0;
+    font-size: 0.8rem;
+    line-height: 1.5;
+    color: var(--text-soft);
+  }
+
+  .page__date strong { display: inline; }
+}
