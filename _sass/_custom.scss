@@ -203,7 +203,7 @@ h1, h2, h3, h4,
 .page.page--full {
   float: none;
   width: auto;
-  max-width: 1500px;
+  max-width: 1320px;
   margin: 0 auto;
   padding: 0 unquote("clamp(1rem, 4vw, 2.5rem)");
 }
@@ -219,12 +219,13 @@ h1, h2, h3, h4,
   display: grid;
   gap: var(--rule);
   width: 100%;
-  margin: 2.5rem 0 0;
+  margin: 2rem 0 0;
   background: var(--ink);
   border: var(--rule) solid var(--ink);
   grid-template-columns: repeat(5, 1fr);
-  grid-template-rows: 1fr 1fr; /* the two top rows are always equal in height */
-  grid-auto-rows: minmax(130px, auto);
+  /* rows 1-2 are always equal; the last row is a slim decorative strip */
+  grid-template-rows: 1fr 1fr minmax(120px, auto) minmax(120px, auto) 64px;
+  grid-auto-rows: minmax(120px, auto);
   grid-template-areas:
     "name     name     name     red      photo"
     "name     name     name     yellow   blue2"
@@ -339,7 +340,7 @@ h1, h2, h3, h4,
     }
   }
 
-  .tile--blue2 {
+  .nav-tile.tile--blue2 {
     grid-area: blue2;
     background: var(--blue);
     color: #fff;
@@ -347,8 +348,8 @@ h1, h2, h3, h4,
     &:hover { background: var(--blue); color: #fff; }
     .nav-sub { color: rgba(255, 255, 255, 0.85); }
   }
-  .tile--extra  { grid-area: extra;  background: var(--blue); }
-  .tile--blue {
+  .tile--extra  { grid-area: extra;  padding: 0; background: var(--blue); }
+  .nav-tile.tile--blue {
     grid-area: blue;
     background: var(--blue);
     color: #fff;
@@ -420,11 +421,8 @@ h1, h2, h3, h4,
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    gap: 1rem;
+    padding: 0;
     background: var(--yellow);
-
-    &:hover { background: var(--yellow); }
-    .nav-sub { margin-top: 0; }
   }
 }
 
