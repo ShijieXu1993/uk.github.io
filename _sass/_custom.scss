@@ -227,7 +227,7 @@ h1, h2, h3, h4,
   background: var(--ink);
   border: var(--rule) solid var(--ink);
   /* the two right-hand columns are narrower: they hold the 2:3 portrait tiles */
-  grid-template-columns: 1fr 1fr 1fr 0.6fr 0.6fr;
+  grid-template-columns: 1fr 1fr 1fr 0.75fr 0.75fr;
   /* row 1 (red + photo) absorbs spare height; row 2 is exactly one square tile */
   grid-template-rows: 1fr auto minmax(120px, auto) minmax(120px, auto) 64px;
   grid-auto-rows: minmax(120px, auto);
@@ -300,21 +300,21 @@ h1, h2, h3, h4,
      always equal); the other tiles simply stretch to fill their cell. */
   .tile--photo { align-self: stretch; }
 
-  /* contact icons and Gallery: perfect squares, as wide as their column */
+  /* Gallery sets the row height (a square); the contact tile stretches to match */
   .tile--blue2 {
     width: 100%;
     aspect-ratio: 1 / 1;
-    align-self: start;
+    align-self: stretch;
   }
 
-  /* narrow-column tiles: smaller padding and label, kept on one line */
+  /* narrow-column tiles: smaller padding, label kept on one line */
   .nav-tile.tile--blue2,
   .nav-tile.tile--teaching,
   .nav-tile.tile--contact {
     padding: unquote("clamp(0.8rem, 1.6vw, 1.6rem)");
 
+    /* same label size as the other tiles; the column is wide enough for one line */
     .nav-label {
-      font-size: unquote("clamp(1.1rem, 0.5rem + 1.4vw, 1.9rem)");
       overflow-wrap: normal;
       white-space: nowrap;
     }
