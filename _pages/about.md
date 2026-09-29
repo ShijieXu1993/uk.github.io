@@ -10,7 +10,7 @@ redirect_from:
 
 {% include base_path %}
 
-I am a PhD researcher in Financial Mathematics at the University of Liverpool. I use this site to collect research notes, implementation write-ups, and updates on my academic work.
+His research interest are financial mathematics and stochastics analysis.
 
 ## Latest posts
 
