@@ -6,12 +6,12 @@
 
 :root {
   --ink: #0d0d0d;
-  --paper: #f6f3ec;
+  --paper: #f7f5ee;
   --paper-soft: #ece7da;
   --text-soft: #4a4540;
-  --red: #e63946;
-  --blue: #1d4ed8;
-  --yellow: #facc15;
+  --red: #d7261e;
+  --blue: #1f4aa8;
+  --yellow: #f8cd1b;
   --rule: 4px;
   --font-sans: "Inter", "Segoe UI", system-ui, sans-serif;
   --font-display: "Playfair Display", Georgia, serif;
@@ -211,6 +211,7 @@ h1, h2, h3, h4,
   background: var(--ink);
   border: var(--rule) solid var(--ink);
   grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: minmax(72px, 1fr) auto;
   grid-auto-rows: minmax(72px, auto);
   grid-template-areas:
     "name     name     name     red      yellow"
@@ -259,6 +260,7 @@ h1, h2, h3, h4,
   }
 
   /* photo */
+  /* the tile takes the picture's own proportions (no cropping, no blank) */
   .tile--photo {
     grid-area: photo;
     padding: 0;
@@ -268,9 +270,7 @@ h1, h2, h3, h4,
     img {
       display: block;
       width: 100%;
-      height: 100%;
-      object-fit: cover;
-      object-position: 50% 30%;
+      height: auto;
     }
   }
 
@@ -278,7 +278,7 @@ h1, h2, h3, h4,
   .tile--red    { grid-area: red;    background: var(--red); }
   .tile--yellow { grid-area: yellow; background: var(--yellow); }
   .tile--blue   { grid-area: blue;   background: var(--blue); }
-  .tile--extra  { grid-area: extra;  background: var(--blue); }
+  .tile--extra  { grid-area: extra;  background: var(--red); }
 
   /* navigation tiles */
   .nav-tile {
@@ -331,11 +331,6 @@ h1, h2, h3, h4,
 
   .tile--contact {
     grid-area: contact;
-    background: var(--red);
-    color: #fff;
-
-    &:hover { background: var(--red); color: #fff; }
-    .nav-sub { color: rgba(255, 255, 255, 0.85); }
   }
 
   .tile--misc {
@@ -344,9 +339,7 @@ h1, h2, h3, h4,
     align-items: center;
     justify-content: space-between;
     gap: 1rem;
-    background: var(--yellow);
 
-    &:hover { background: var(--yellow); }
     .nav-sub { margin-top: 0; }
   }
 }
