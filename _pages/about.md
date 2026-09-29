@@ -19,7 +19,7 @@ redirect_from:
     <p class="eyebrow">Mathematician · Marketcolor, UK</p>
     <h1>Shijie Xu</h1>
     <div class="bio">
-      <p>I am a PhD in financial mathematics at University of Liverpool, supervised by Prof. Paul Eisenberg.<p>
+      <p>I am a PhD in financial mathematics at University of Liverpool, supervised by Prof. Paul Eisenberg.</p>
       <p>I am a mathematician at Marketcolor, UK.</p>
       <p>My research interests are financial mathematics and stochastic analysis.</p>
     </div>
