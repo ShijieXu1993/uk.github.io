@@ -222,7 +222,8 @@ h1, h2, h3, h4,
   margin: 2rem 0 0;
   background: var(--ink);
   border: var(--rule) solid var(--ink);
-  grid-template-columns: repeat(5, 1fr);
+  /* the two right-hand columns are narrower: they hold the 2:3 portrait tiles */
+  grid-template-columns: 1fr 1fr 1fr 0.6fr 0.6fr;
   /* rows 1-2 are always equal; the last row is a slim decorative strip */
   grid-template-rows: 1fr 1fr minmax(120px, auto) minmax(120px, auto) 64px;
   grid-auto-rows: minmax(120px, auto);
@@ -521,7 +522,7 @@ h1, h2, h3, h4,
 
     .tile--misc, .tile--extra { display: none; }
     .tile--red, .tile--yellow { min-height: 160px; }
-    .tile--photo img { height: auto; }
+    .tile--photo img { height: auto; max-height: 480px; object-fit: cover; object-position: 50% 15%; }
     .tile--blue, .tile--blue2 { min-height: 56px; }
   }
 }
