@@ -292,7 +292,7 @@ h1, h2, h3, h4,
   .tile--yellow { grid-area: yellow; background: var(--yellow); }
   .tile--red, .tile--yellow, .tile--blue2 { aspect-ratio: 4 / 3; }
   .tile--photo { aspect-ratio: 4 / 3; }
-  /* four quadrants, one icon each, divided by black rules */
+  /* four quadrants, one icon each, no dividing lines */
   .tile--contactinfo {
     padding: 0;
     color: var(--ink);
@@ -302,13 +302,13 @@ h1, h2, h3, h4,
       flex: 1;
       grid-template-columns: 1fr 1fr;
       grid-template-rows: 1fr 1fr;
-      gap: var(--rule);
+      gap: 0;
       width: 100%;
       height: 100%;
       margin: 0;
       padding: 0;
       list-style: none;
-      background: var(--ink);
+      background: var(--yellow);
 
       li {
         display: flex;
@@ -327,9 +327,11 @@ h1, h2, h3, h4,
         font-size: unquote("clamp(1.6rem, 1rem + 1.8vw, 2.8rem)");
         line-height: 1;
         text-decoration: none;
+        outline: none;
         transition: background 0.15s ease, color 0.15s ease;
 
-        &:hover {
+        &:hover,
+        &:focus {
           background: var(--ink);
           color: var(--yellow);
         }
