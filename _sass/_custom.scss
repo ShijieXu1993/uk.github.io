@@ -291,12 +291,10 @@ h1, h2, h3, h4,
   /* decorative primary blocks */
   .tile--red    { grid-area: red;    background: var(--red); }
   .tile--yellow { grid-area: yellow; background: var(--yellow); }
-  /* 4:3 sets the minimum row height; align-self makes the tiles fill the row
-     so no black grid background shows through */
-  .tile--red, .tile--yellow, .tile--blue2, .tile--photo {
-    aspect-ratio: 4 / 3;
-    align-self: stretch;
-  }
+  /* The photo's own 4:3 shape sets the height of the two top rows (which are
+     always equal); the other tiles simply stretch to fill their cell. */
+  .tile--photo { align-self: stretch; }
+
   /* four quadrants, one icon each, no dividing lines */
   .tile--contactinfo {
     padding: 0;
@@ -451,7 +449,6 @@ h1, h2, h3, h4,
       "blue2    blue2";
 
     .tile--misc, .tile--extra { display: none; }
-    .tile--red, .tile--yellow, .tile--photo, .tile--blue2 { aspect-ratio: auto; }
     .tile--red, .tile--yellow { min-height: 160px; }
     .tile--photo img { height: auto; }
     .tile--blue, .tile--blue2 { min-height: 56px; }
