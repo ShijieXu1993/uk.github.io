@@ -26,6 +26,7 @@ redirect_from:
 
   <div class="tile tile--red" aria-hidden="true"></div>
   <div class="tile tile--yellow" aria-hidden="true"></div>
+  <div class="tile tile--blue2" aria-hidden="true"></div>
 
   <div class="tile tile--photo">
     <img src="{{ base_path }}/images/profile.png" alt="Shijie Xu">
