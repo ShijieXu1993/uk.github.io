@@ -342,11 +342,6 @@ h1, h2, h3, h4,
 
   .nav-tile.tile--blue2 {
     grid-area: blue2;
-    background: var(--blue);
-    color: #fff;
-
-    &:hover { background: var(--blue); color: #fff; }
-    .nav-sub { color: rgba(255, 255, 255, 0.85); }
   }
   .tile--extra  { grid-area: extra;  padding: 0; background: var(--blue); }
   .nav-tile.tile--blue {
