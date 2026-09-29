@@ -301,11 +301,23 @@ h1, h2, h3, h4,
   .tile--photo { align-self: stretch; }
 
   /* contact icons and Gallery: perfect squares, as wide as their column */
-  .tile--yellow,
   .tile--blue2 {
     width: 100%;
     aspect-ratio: 1 / 1;
     align-self: start;
+  }
+
+  /* narrow-column tiles: smaller padding and label, kept on one line */
+  .nav-tile.tile--blue2,
+  .nav-tile.tile--teaching,
+  .nav-tile.tile--contact {
+    padding: unquote("clamp(0.8rem, 1.6vw, 1.6rem)");
+
+    .nav-label {
+      font-size: unquote("clamp(1.1rem, 0.5rem + 1.4vw, 1.9rem)");
+      overflow-wrap: normal;
+      white-space: nowrap;
+    }
   }
 
   /* four quadrants, one icon each, no dividing lines */
@@ -533,7 +545,7 @@ h1, h2, h3, h4,
       "blue2    blue2";
 
     .tile--misc, .tile--extra { display: none; }
-    .tile--yellow, .tile--blue2 { aspect-ratio: auto; align-self: stretch; }
+    .tile--blue2 { aspect-ratio: auto; align-self: stretch; }
     .tile--red, .tile--yellow { min-height: 160px; }
     .tile--photo img { height: auto; max-height: 480px; object-fit: cover; object-position: 50% 15%; }
     .tile--blue, .tile--blue2 { min-height: 56px; }
