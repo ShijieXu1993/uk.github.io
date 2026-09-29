@@ -47,8 +47,21 @@ h1, h2, h3, h4,
 /* ---- Masthead ------------------------------------------------------------ */
 .masthead {
   background: var(--paper);
-  border-bottom: var(--rule) solid var(--ink);
+  border-bottom: none;
   box-shadow: none;
+
+  /* drawn as an overlay so the nav bar can't cover it */
+  &::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: var(--rule);
+    background: var(--ink);
+    pointer-events: none;
+    z-index: 30;
+  }
 
   .masthead__menu-item a {
     font-family: var(--font-sans);
@@ -159,13 +172,6 @@ h1, h2, h3, h4,
   box-shadow: 5px 5px 0 var(--yellow);
 }
 
-.author__urls {
-  border: 3px solid var(--ink);
-  border-radius: 0;
-  background: var(--paper);
-  box-shadow: 5px 5px 0 var(--ink);
-}
-
 .sidebar .btn, .btn {
   border-radius: 0;
   border: 2px solid var(--ink);
@@ -188,6 +194,14 @@ h1, h2, h3, h4,
 /* ==========================================================================
    HOMEPAGE GRID
    ========================================================================== */
+/* undo the theme's 10-of-12 column layout so the grid can use the full width */
+.page.page--full {
+  float: none;
+  width: auto;
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 0 unquote("clamp(1rem, 4vw, 2.5rem)");
+}
 
 .home-grid {
   display: grid;
