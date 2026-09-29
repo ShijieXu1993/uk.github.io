@@ -45,8 +45,8 @@ redirect_from:
   <div class="tile tile--blue" aria-hidden="true"></div>
 
   <a class="tile nav-tile tile--teaching" href="{{ base_path }}/publications/">
-    <span class="nav-label">Publications</span>
-    <span class="nav-sub">Papers <span class="arrow" aria-hidden="true">&rarr;</span></span>
+    <span class="nav-label">Papers</span>
+    <span class="nav-sub">Publications <span class="arrow" aria-hidden="true">&rarr;</span></span>
   </a>
 
   <a class="tile nav-tile tile--contact" href="{{ base_path }}/talks/">

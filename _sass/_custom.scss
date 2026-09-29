@@ -261,16 +261,16 @@ h1, h2, h3, h4,
   /* photo */
   .tile--photo {
     grid-area: photo;
+    justify-content: center;
     padding: 0;
     overflow: hidden;
     background: var(--paper-soft);
 
+    /* show the whole picture; it is landscape, the tile is portrait */
     img {
       display: block;
       width: 100%;
-      height: 100%;
-      object-fit: cover;
-      object-position: 50% 28%;
+      height: auto;
     }
   }
 
