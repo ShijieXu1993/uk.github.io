@@ -3,7 +3,7 @@
    ========================================================================== */
 
 body {
-  line-height: 1.65;
+  line-height: 1.75;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -27,6 +27,7 @@ body {
 
   p {
     max-width: 42em;
+    margin: 0 0 1.25em;
   }
 
   a {
@@ -43,8 +44,8 @@ body {
 /* Post list on the homepage: card-style entries */
 .list__item {
   .archive__item {
-    margin-bottom: 1.25em;
-    padding: 1em 1.25em;
+    margin-bottom: 1.75em;
+    padding: 1.25em 1.5em;
     border: 1px solid var(--global-border-color);
     border-radius: 8px;
     transition: $global-transition;
@@ -58,7 +59,9 @@ body {
 
   .archive__item-title {
     margin-top: 0;
+    margin-bottom: 0.4em;
     font-size: 1.2em;
+    line-height: 1.35;
 
     a {
       border-bottom: none;
@@ -66,12 +69,13 @@ body {
   }
 
   .archive__item-excerpt {
-    margin-bottom: 0;
+    margin: 0.5em 0 0;
+    line-height: 1.6;
     color: var(--global-text-color-light);
   }
 
   .page__meta {
-    margin-top: 0.25em;
+    margin: 0.5em 0 0;
     font-size: 0.8em;
   }
 }
