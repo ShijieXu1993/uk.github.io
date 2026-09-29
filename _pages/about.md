@@ -41,7 +41,7 @@ redirect_from:
   </a>
 
   <div class="tile tile--photo">
-    <img src="{{ base_path }}/images/profile.png" alt="Shijie Xu">
+    <img src="{{ base_path }}/images/home-photo.jpg" alt="Shijie Xu">
   </div>
 
   <a class="tile nav-tile tile--research" href="{{ base_path }}/year-archive/">
