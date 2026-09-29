@@ -60,7 +60,10 @@ redirect_from:
     <span class="nav-sub">Courses &amp; supervision <span class="arrow" aria-hidden="true">&rarr;</span></span>
   </a>
 
-  <div class="tile tile--extra" aria-hidden="true"></div>
+  <a class="tile nav-tile tile--extra" href="{{ base_path }}/portfolio/">
+    <span class="nav-label">Gallery</span>
+    <span class="nav-sub">Photos <span class="arrow" aria-hidden="true">&rarr;</span></span>
+  </a>
 
 </div>
 

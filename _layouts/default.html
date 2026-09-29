@@ -11,10 +11,10 @@ layout: compress
     {% include head/custom.html %}
   </head>
 
-  <body>
+  <body{% if page.mondrian_home %} class="home-page"{% endif %}>
 
     {% include browser-upgrade.html %}
-    {% include masthead.html %}
+    {% unless page.mondrian_home %}{% include masthead.html %}{% endunless %}
 
     {{ content }}
 
