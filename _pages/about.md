@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Latest posts"
+title: "Introduction"
 description: "Latest blog posts and research notes from Shijie Xu, PhD researcher in Financial Mathematics at the University of Liverpool."
 author_profile: true
 redirect_from: 
