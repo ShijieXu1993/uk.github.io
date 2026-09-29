@@ -19,19 +19,19 @@ redirect_from:
     <p class="eyebrow">Mathematician · Marketcolor, UK</p>
     <h1>Shijie Xu</h1>
     <div class="bio">
-      <p>I am a PhD researcher in Financial Mathematics at the University of Liverpool, and a mathematician at Marketcolor, UK.</p>
-      <p>My research interests are financial mathematics and stochastic analysis. I use this site to collect research notes, implementation write-ups, and updates on my academic work.</p>
+      <p>I am a PhD in financial mathematics at University of Liverpool, supervised by Prof. Paul Eisenberg.<p>
+      <p>I am a mathematician at Marketcolor, UK.</p>
+      <p>My research interests are financial mathematics and stochastic analysis.</p>
     </div>
   </header>
 
   <div class="tile tile--red" aria-hidden="true"></div>
   <div class="tile tile--yellow tile--contactinfo">
-    <p class="eyebrow">Contact</p>
     <ul class="contact-links">
-      <li><a href="mailto:{{ site.author.email }}">Email <span aria-hidden="true">&rarr;</span></a></li>
-      <li><a href="https://www.linkedin.com/in/{{ site.author.linkedin }}" target="_blank" rel="noopener">LinkedIn <span aria-hidden="true">&rarr;</span></a></li>
-      <li><a href="https://github.com/{{ site.author.github }}" target="_blank" rel="noopener">GitHub <span aria-hidden="true">&rarr;</span></a></li>
-      <li><a href="{{ site.author.orcid }}" target="_blank" rel="noopener">ORCID <span aria-hidden="true">&rarr;</span></a></li>
+      <li><a href="mailto:{{ site.author.email }}" aria-label="Email" title="Email"><i class="fas fa-envelope" aria-hidden="true"></i></a></li>
+      <li><a href="https://www.linkedin.com/in/{{ site.author.linkedin }}" target="_blank" rel="noopener" aria-label="LinkedIn" title="LinkedIn"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a></li>
+      <li><a href="https://github.com/{{ site.author.github }}" target="_blank" rel="noopener" aria-label="GitHub" title="GitHub"><i class="fab fa-github" aria-hidden="true"></i></a></li>
+      <li><a href="{{ site.author.orcid }}" target="_blank" rel="noopener" aria-label="ORCID" title="ORCID"><i class="ai ai-orcid" aria-hidden="true"></i></a></li>
     </ul>
   </div>
   <div class="tile tile--blue2" aria-hidden="true"></div>
