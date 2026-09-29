@@ -96,7 +96,7 @@ redirect_from:
   var btn = document.getElementById('home-post-toggle');
   if (!body || !btn) { return; }
 
-  // only offer "Read more" when the post is longer than the collapsed height
+  /* only offer "Read more" when the post is longer than the collapsed height */
   function check() {
     if (body.classList.contains('is-open')) { return; }
     btn.hidden = body.scrollHeight <= body.clientHeight + 2;
@@ -113,7 +113,7 @@ redirect_from:
   check();
   window.addEventListener('load', check);
   window.addEventListener('resize', check);
-  // maths is typeset after load and changes the height
+  /* maths is typeset after load and changes the height */
   if (window.MathJax && MathJax.startup && MathJax.startup.promise) {
     MathJax.startup.promise.then(check);
   }
