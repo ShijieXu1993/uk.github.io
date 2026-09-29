@@ -426,6 +426,69 @@ h1, h2, h3, h4,
 .home-posts {
   margin-top: 3rem;
 
+  .home-post__title {
+    margin: 0 0 0.2em;
+    font-size: 1.6em;
+
+    a { border-bottom: none; }
+    a:hover { background: none; color: var(--red); }
+  }
+
+  .home-post__date {
+    margin: 0 0 1.2em;
+    font-size: 0.8em;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: var(--text-soft);
+  }
+
+  /* collapsed: about ten lines of text, fading out at the bottom */
+  .home-post__body {
+    position: relative;
+    max-height: 17.5em;
+    overflow: hidden;
+
+    &::after {
+      content: "";
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      height: 7em;
+      background: linear-gradient(to bottom, rgba(246, 243, 236, 0), var(--paper) 90%);
+      pointer-events: none;
+    }
+
+    &.is-open { max-height: none; }
+    &.is-open::after,
+    &.is-short::after { display: none; }
+  }
+
+  .home-post__toggle {
+    margin-top: 0.5rem;
+    padding: 0.5rem 1.1rem;
+    border: 3px solid var(--ink);
+    border-radius: 0;
+    background: var(--paper);
+    color: var(--ink);
+    font-family: var(--font-sans);
+    font-size: 0.8rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    cursor: pointer;
+    box-shadow: 4px 4px 0 var(--ink);
+    transition: transform 0.12s ease, box-shadow 0.12s ease, background 0.15s ease, color 0.15s ease;
+
+    &:hover {
+      background: var(--ink);
+      color: var(--paper);
+      transform: translate(-2px, -2px);
+      box-shadow: 6px 6px 0 var(--ink);
+    }
+  }
+
   h2 {
     margin: 0 0 1.4rem;
     padding-left: 0.85rem;
