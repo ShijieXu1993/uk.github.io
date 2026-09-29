@@ -6,14 +6,13 @@ author_profile: true
 redirect_from:
   - /resume
 ---
-
 {% include base_path %}
 
 ## Experience
 
 <div class="cv-entry">
-  <div class="cv-entry__head"><strong>Quantitative Modeller</strong><span>Aug. 2025 – now</span></div>
-  <div class="cv-entry__sub"><em>Marketcolor</em><span>London, UK</span></div>
+  <div class="cv-entry__head"><strong>Quantitative Modeller </strong><span>Aug. 2025 – now</span></div>
+  <div class="cv-entry__sub"><em>Marketcolor </em><span>London, UK</span></div>
   <ul>
     <li>Quantitative analysis of OTC derivatives, with a particular focus on fixed-income derivatives: <strong>ETFs</strong> using OTC derivatives, i.e., TRS, swaptions, etc.; <strong>structured products</strong>, i.e., range-accrued notes; <strong>CCP-cleared products</strong>, i.e., basis trade in Eurex EFP; <strong>long-dated bond hedging and liability-driven investment strategies</strong>, i.e., including the use of interest-rate swaps by pension funds.</li>
     <li>Strong experience in <strong>developing quantitative analytics and pricing tools</strong>. Current research includes discount-curve construction using conventional bootstrapping methods, as well as the smooth, data-driven term-structure methodology developed by Filipović and Ye.</li>
@@ -61,7 +60,7 @@ redirect_from:
 
 <div class="cv-entry">
   <div class="cv-entry__head"><strong>Virtual Conference</strong><span>Mannheim, Germany</span></div>
-  <div class="cv-entry__sub"><em>German Probability &amp; Statistics Days Mannheim</em><span>Sept. 2021</span></div>
+  <div class="cv-entry__sub"><em>German Probability & Statistics Days Mannheim</em><span>Sept. 2021</span></div>
   <ul><li>Statistically consistent term structures have affine geometry</li></ul>
 </div>
 
@@ -74,4 +73,4 @@ redirect_from:
 * **Programming languages:** Python, C++, Matlab, Excel, SQL
 * **Libraries:** pandas, NumPy, Matplotlib, MongoDB
 * **Engines:** ORE, Rateslib
-* **Website:** <https://shijiexu1993.github.io/uk.github.io>
+* **Website:** [https://shijiexu1993.github.io/uk.github.io](https://shijiexu1993.github.io/uk.github.io)
