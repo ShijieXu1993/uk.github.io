@@ -9,7 +9,7 @@ redirect_from:
 ---
 
 {% include base_path %}
-
+Shjjie Xu is a mathematician at Marketcolor, UK.
 His research interest are financial mathematics and stochastics analysis.
 
 ## Latest posts
