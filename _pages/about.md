@@ -17,7 +17,7 @@ His research interest are financial mathematics and stochastics analysis.
 
 {% assign recent_posts = site.posts | where_exp: "post", "post.hidden != true" %}
 {% if recent_posts.size > 0 %}
-  {% for post in recent_posts limit:5 %}
+  {% for post in recent_posts limit:10 %}
     {% include archive-single.html %}
   {% endfor %}
 {% else %}
