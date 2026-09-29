@@ -25,7 +25,15 @@ redirect_from:
   </header>
 
   <div class="tile tile--red" aria-hidden="true"></div>
-  <div class="tile tile--yellow" aria-hidden="true"></div>
+  <div class="tile tile--yellow tile--contactinfo">
+    <p class="eyebrow">Contact</p>
+    <ul class="contact-links">
+      <li><a href="mailto:{{ site.author.email }}">Email <span aria-hidden="true">&rarr;</span></a></li>
+      <li><a href="https://www.linkedin.com/in/{{ site.author.linkedin }}" target="_blank" rel="noopener">LinkedIn <span aria-hidden="true">&rarr;</span></a></li>
+      <li><a href="https://github.com/{{ site.author.github }}" target="_blank" rel="noopener">GitHub <span aria-hidden="true">&rarr;</span></a></li>
+      <li><a href="{{ site.author.orcid }}" target="_blank" rel="noopener">ORCID <span aria-hidden="true">&rarr;</span></a></li>
+    </ul>
+  </div>
   <div class="tile tile--blue2" aria-hidden="true"></div>
 
   <div class="tile tile--photo">
