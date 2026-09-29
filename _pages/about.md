@@ -51,7 +51,10 @@ redirect_from:
     <span class="nav-sub">Background <span class="arrow" aria-hidden="true">&rarr;</span></span>
   </a>
 
-  <div class="tile tile--blue" aria-hidden="true"></div>
+  <a class="tile nav-tile tile--blue" href="{{ base_path }}/teaching/">
+    <span class="nav-label">Teaching</span>
+    <span class="nav-sub">Courses <span class="arrow" aria-hidden="true">&rarr;</span></span>
+  </a>
 
   <a class="tile nav-tile tile--teaching" href="{{ base_path }}/publications/">
     <span class="nav-label">Papers</span>
@@ -63,15 +66,12 @@ redirect_from:
     <span class="nav-sub">Presentations <span class="arrow" aria-hidden="true">&rarr;</span></span>
   </a>
 
-  <a class="tile nav-tile tile--misc" href="{{ base_path }}/teaching/">
-    <span class="nav-label">Teaching</span>
-    <span class="nav-sub">Courses &amp; supervision <span class="arrow" aria-hidden="true">&rarr;</span></span>
-  </a>
-
-  <a class="tile nav-tile tile--extra" href="{{ base_path }}/portfolio/">
+  <a class="tile nav-tile tile--misc" href="{{ base_path }}/portfolio/">
     <span class="nav-label">Gallery</span>
     <span class="nav-sub">Photos <span class="arrow" aria-hidden="true">&rarr;</span></span>
   </a>
+
+  <div class="tile tile--extra" aria-hidden="true"></div>
 
 </div>
 

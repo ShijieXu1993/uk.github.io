@@ -340,9 +340,9 @@ h1, h2, h3, h4,
   }
 
   .tile--blue2  { grid-area: blue2;  background: var(--blue); }
-  .tile--blue   { grid-area: blue;   background: var(--blue); }
-  .tile--extra {
-    grid-area: extra;
+  .tile--extra  { grid-area: extra;  background: var(--blue); }
+  .tile--blue {
+    grid-area: blue;
     background: var(--blue);
     color: #fff;
 
@@ -460,4 +460,36 @@ h1, h2, h3, h4,
   .home-grid .nav-tile:hover,
   .archive__item,
   .archive__item:hover { transform: none; transition: none; }
+}
+
+/* ---- CV entries ---------------------------------------------------------- */
+.cv-entry {
+  margin-bottom: 1.75em;
+
+  .cv-entry__head,
+  .cv-entry__sub {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 0 1rem;
+  }
+
+  .cv-entry__head { font-size: 1.05em; }
+
+  .cv-entry__sub {
+    margin-bottom: 0.4em;
+    color: var(--text-soft);
+  }
+
+  .cv-entry__head span,
+  .cv-entry__sub span {
+    font-size: 0.85em;
+    font-weight: 600;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    white-space: nowrap;
+  }
+
+  ul { margin: 0.3em 0 0; }
+  li { margin-bottom: 0.4em; }
 }
