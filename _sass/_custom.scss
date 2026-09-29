@@ -339,7 +339,14 @@ h1, h2, h3, h4,
     }
   }
 
-  .tile--blue2  { grid-area: blue2;  background: var(--blue); }
+  .tile--blue2 {
+    grid-area: blue2;
+    background: var(--blue);
+    color: #fff;
+
+    &:hover { background: var(--blue); color: #fff; }
+    .nav-sub { color: rgba(255, 255, 255, 0.85); }
+  }
   .tile--extra  { grid-area: extra;  background: var(--blue); }
   .tile--blue {
     grid-area: blue;
@@ -444,14 +451,13 @@ h1, h2, h3, h4,
       "research research"
       "cv       teaching"
       "contact  blue"
-      "misc     misc"
-      "extra    extra";
+      "blue2    blue2";
 
-    .tile--blue2 { display: none; }
-    .tile--red, .tile--yellow, .tile--photo { aspect-ratio: auto; }
+    .tile--misc, .tile--extra { display: none; }
+    .tile--red, .tile--yellow, .tile--photo, .tile--blue2 { aspect-ratio: auto; }
     .tile--red, .tile--yellow { min-height: 160px; }
     .tile--photo img { height: auto; }
-    .tile--blue, .tile--extra { min-height: 56px; }
+    .tile--blue, .tile--blue2 { min-height: 56px; }
   }
 }
 

@@ -34,7 +34,10 @@ redirect_from:
       <li><a href="{{ site.author.orcid }}" target="_blank" rel="noopener" aria-label="ORCID" title="ORCID"><i class="ai ai-orcid" aria-hidden="true"></i></a></li>
     </ul>
   </div>
-  <div class="tile tile--blue2" aria-hidden="true"></div>
+  <a class="tile nav-tile tile--blue2" href="{{ base_path }}/portfolio/">
+    <span class="nav-label">Gallery</span>
+    <span class="nav-sub">Photos <span class="arrow" aria-hidden="true">&rarr;</span></span>
+  </a>
 
   <div class="tile tile--photo">
     <img src="{{ base_path }}/images/profile.png" alt="Shijie Xu">
@@ -66,10 +69,7 @@ redirect_from:
     <span class="nav-sub">Presentations <span class="arrow" aria-hidden="true">&rarr;</span></span>
   </a>
 
-  <a class="tile nav-tile tile--misc" href="{{ base_path }}/portfolio/">
-    <span class="nav-label">Gallery</span>
-    <span class="nav-sub">Photos <span class="arrow" aria-hidden="true">&rarr;</span></span>
-  </a>
+  <div class="tile tile--misc" aria-hidden="true"></div>
 
   <div class="tile tile--extra" aria-hidden="true"></div>
 
