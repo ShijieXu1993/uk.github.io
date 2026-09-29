@@ -167,6 +167,10 @@ h1, h2, h3, h4,
 
 /* ---- Sidebar ------------------------------------------------------------- */
 .author__avatar img {
+  /* portrait photo: show head and shoulders in a 4:5 frame */
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+  object-position: 50% 12%;
   border-radius: 0;
   border: 3px solid var(--ink);
   box-shadow: 5px 5px 0 var(--yellow);
