@@ -301,7 +301,8 @@ h1, h2, h3, h4,
     .nav-label {
       font-family: var(--font-display);
       font-weight: 700;
-      font-size: unquote("clamp(1.3rem, 0.9rem + 1.3vw, 1.8rem)");
+      font-size: unquote("clamp(1.1rem, 0.7rem + 1.1vw, 1.6rem)");
+      overflow-wrap: anywhere;
       line-height: 1.05;
     }
 
