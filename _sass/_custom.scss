@@ -213,8 +213,8 @@ h1, h2, h3, h4,
   grid-template-columns: repeat(5, 1fr);
   grid-auto-rows: minmax(72px, auto);
   grid-template-areas:
-    "name     name     name     photo    photo"
-    "name     name     name     photo    photo"
+    "name     name     name     red      yellow"
+    "name     name     name     photo    yellow"
     "research research cv       teaching contact"
     "research research blue     teaching contact"
     "misc     misc     misc     misc     extra";
@@ -275,6 +275,8 @@ h1, h2, h3, h4,
   }
 
   /* decorative primary blocks */
+  .tile--red    { grid-area: red;    background: var(--red); }
+  .tile--yellow { grid-area: yellow; background: var(--yellow); }
   .tile--blue   { grid-area: blue;   background: var(--blue); }
   .tile--extra  { grid-area: extra;  background: var(--blue); }
 
@@ -366,6 +368,7 @@ h1, h2, h3, h4,
     grid-template-areas:
       "name     name"
       "photo    photo"
+      "red      yellow"
       "research research"
       "cv       teaching"
       "contact  blue"
@@ -373,7 +376,7 @@ h1, h2, h3, h4,
       "extra    extra";
 
     .tile--photo img { height: auto; }
-    .tile--blue, .tile--extra { min-height: 56px; }
+    .tile--red, .tile--yellow, .tile--blue, .tile--extra { min-height: 56px; }
   }
 }
 

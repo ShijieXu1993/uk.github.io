@@ -24,6 +24,9 @@ redirect_from:
     </div>
   </header>
 
+  <div class="tile tile--red" aria-hidden="true"></div>
+  <div class="tile tile--yellow" aria-hidden="true"></div>
+
   <div class="tile tile--photo">
     <img src="{{ base_path }}/images/profile.png" alt="Shijie Xu">
   </div>
